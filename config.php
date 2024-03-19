@@ -12,4 +12,4 @@ $client->setScopes( [\Google_Service_Sheets::SPREADSHEETS] );
 $service = new Sheets( $client );
 
 // the spreadsheet id can be found in the url https://docs.google.com/spreadsheets/d/143xVs9l_2t0We355-75djiWmvZU-DYAnd/edit
-$spreadsheetId = '';
+$spreadsheetId = 'your_google_spread_sheet_id';
